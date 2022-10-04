@@ -1,6 +1,6 @@
 // Prof. Ausberto S. Castro Vera
 // UENF-CCT-LCMAT-Ciencia da Computacao
-//  Setembro, 2022
+//  Outubro, 2022
 //
 // Para executar desde o editor SciNotes:   < Ctrl >< L >
 //
@@ -8,7 +8,7 @@
 
 clc; clear;      
 mprintf('\n UENF-CCT-LCMAT-Ciencia da Computacao\n');
-printf(" Aluno: Fulano de tal - Campos %s\n\n", date());
+printf(" Aluno: Rômulo Souza Fernandes - Campos %s\n\n", date());
 
 v1 = 3:10 
 v2 = 23:2:31

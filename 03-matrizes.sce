@@ -8,7 +8,7 @@
 
 clc; clear;      
 mprintf('UENF - Ciencia da Computacao\n');
-printf("Aluno: Fulano de tal - Campos %s ", date());
+printf("Aluno: Rômulo Souza Fernandes - Campos %s ", date());
 
 
 m1 = [1 2 3; 4 5 6; 7 8 9]

@@ -21,8 +21,9 @@ ListaNumeros(3) = 678
 
 ListaPalavras = list("UENF", "CComputacao")
 
-disp("Execução terminada...");
-
 ListaCarros = list("Corolla", "Civic", "Gol")
 ListaMotos = list("Titan", "XRE", "CB1000")
 ListaCandidatos = list("Lula", "Bolsonaro", "Ciro")
+
+Lista1 = list("abcd", "xyzw")
+Lista2 = list(["abcd", "xyzw"])

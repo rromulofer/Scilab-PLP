@@ -10,7 +10,6 @@ clc; clear;
 mprintf("UENF - Ciencia da Computacao\n");
 printf(" Aluno: Rômulo Souza Fernandes - Campos % s", date());
 
-
 ListaObjetos = list(1,["a" "b"])
 
 ListaAnimal(1) = "gato"
@@ -27,3 +26,4 @@ ListaCandidatos = list("Lula", "Bolsonaro", "Ciro")
 
 Lista1 = list("abcd", "xyzw")
 Lista2 = list(["abcd", "xyzw"])
+

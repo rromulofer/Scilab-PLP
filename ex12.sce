@@ -34,11 +34,9 @@ m8 = rand(2,3)       // matriz randomica 2x3
 
 m9 = m5'             // matriz transposta
 
-A = [1 2 3; 4 5 6; 7 8 9]
-
-B = [9 8 7; 6 5 4; 3 2 1]
-
-X = inv(A)*B
+a = [1 2 3; 4 5 6; 7 8 9]
+m1 = [1 2 3; 4 5 6; 7 8 9]
+x = inv(a)*m1
 
 
 

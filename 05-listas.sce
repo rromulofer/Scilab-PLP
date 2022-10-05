@@ -1,6 +1,6 @@
 // Prof. Ausberto S. Castro Vera
 // UENF-CCT-LCMAT-Ciencia da Computacao
-//  Setembro, 2022
+//  Outubro, 2022
 //
 // Para executar desde o editor SciNotes:   < Ctrl >< E >
 //
@@ -8,7 +8,7 @@
 
 clc; clear;      
 mprintf("UENF - Ciencia da Computacao\n");
-printf(" Aluno: Fulano de tal - Campos % s", date());
+printf(" Aluno: Rômulo Souza Fernandes - Campos % s", date());
 
 
 ListaObjetos = list(1,["a" "b"])
@@ -21,8 +21,8 @@ ListaNumeros(3) = 678
 
 ListaPalavras = list("UENF", "CComputacao")
 
-
-
-
-
 disp("Execução terminada...");
+
+ListaCarros = list("Corolla", "Civic", "Gol")
+ListaMotos = list("Titan", "XRE", "CB1000")
+ListaCandidatos = list("Lula", "Bolsonaro", "Ciro")

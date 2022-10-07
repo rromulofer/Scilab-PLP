@@ -9,13 +9,12 @@ clear; clc;
 mprintf("UENF - Ciencia da Computacao\n");
 printf(" Aluno: Rômulo Souza Fernandes - Campos %s\n\n", date());
 
-n=0;
-x=0;
-soma=0;
-while (x > 0)
-   x=input('Digite um numero entre 1 e 50 (0 para terminar): '); 
-   soma=soma + x;
-   n=n+1;
-end;   
+limite= input('Digite o limite para a contage: ')
+soma = 0
+i = 0
+while i<= limite
+    soma = soma + i;
+    i = i+1; 
+end;
 
-printf("\n A soma dos %d valores ingressados  = %d\n",n-1,soma)
+printf("O número inteiro positivo menor ou igual ao limite digitado foi: %d",i-1)

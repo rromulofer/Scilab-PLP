@@ -6,7 +6,7 @@
 //
 // ======> Assunto:  Programacao: GRAFICOS III ==================
 clear; clc; clf();
-Aluno = 'Fulano de Silva';  // <============ Nome do aluno
+Aluno = 'Rômulo Souza Fernandes';  // <============ Nome do aluno
 
 // propriedades da figura: NÃO alterar !!
 dt=getdate(); dd= ' ('+string(dt(7)) + ':'+string(dt(8))+')' ;
@@ -20,7 +20,7 @@ f.figure_name='UENF CCT LCMAT CC - 2022 - '+ Aluno + dd;
 
 h=get("hdl");
 
-x = 0:0.1:2*%pi;    // mudar o intervalo para  0.01, 0.2
+x = 0:0.2:2*%pi;    // mudar o intervalo para  0.01, 0.2
 y = 0:0.1:2*%pi;    //            " 
 z = sin(x')*cos(y);
 
@@ -28,6 +28,6 @@ plot3d(x,y, z);     // graficos 3D
 
 
 f=get("current_figure");         // get the handle of the parent figure 
-f.color_map=hotcolormap(10);      // muda o colormap   5, 7, 9
+f.color_map=hotcolormap(11);      // muda o colormap   5, 7, 9
  
 xtitle('z = sin(x'')*cos(y)');   // titulo do grafico

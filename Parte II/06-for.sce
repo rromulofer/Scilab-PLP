@@ -8,7 +8,7 @@
 
 clc;    
 mprintf("UENF - Ciencia da Computacao\n");
-printf(" Aluno: Fulano de tal - Campos %s\n", date());
+printf(" Aluno: Rômulo Souza Fernandes - Campos %s\n", date());
 
 //----------- incremento sequencial ------------
 for N=2:6:29

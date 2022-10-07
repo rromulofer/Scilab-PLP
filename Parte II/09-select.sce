@@ -8,10 +8,11 @@
 
 clear; clc;
 
-Aluno = 'Fulano de Tal' ;   /// <================  COMPLETAR !!!!
-
-dt=getdate(); dd= ' ('+string(dt(7)) + ':'+string(dt(8))+')' ;
+Aluno = 'Rômulo Souza Fernandes' ;   /// <================  COMPLETAR !!!
 mprintf("\n UENF-CCT-LCMAT-Ciencia da Computacao\n");
+printf(" Aluno: Rômulo Souza Fernandes - Campos %s", date());
+dt=getdate(); dd= ' ('+string(dt(7)) + ':'+string(dt(8))+')' ;
+
 
 
 dia = 5;

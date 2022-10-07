@@ -12,8 +12,8 @@ printf(" Aluno: Rômulo Souza Fernandes - Campos %s\n\n", date());
 
 n = input('Digite um número qualquer : ');
 
-if  modulo(n, m)== 0 then
+if  modulo(n, 2) == 0 then
     printf("o numero é par")
-    else 
-        printf("o numero é impar")
+else 
+    printf("o numero é impar")
 end

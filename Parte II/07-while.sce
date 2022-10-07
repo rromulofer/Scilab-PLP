@@ -15,12 +15,7 @@ while  m > 0
   a  = m *3;
   mm =[mm m]
   m = m-28;
-  printf("  m: %d", m)
-  printf("  mm: %d", mm)
-  printf("  a: %d\n", a)
 end
-
-printf("\n\n\n")
 
 k= 3;0
 j=1;
@@ -28,9 +23,6 @@ while (k< 30)
    A(j) = k+0.3;
    j=j+1;
    k=k+5;
-    printf("  k: %d", k)
-    printf("  j: %d", j)
-    printf("  A: %d\n", A)
 end;
 
 A
@@ -46,7 +38,3 @@ while (x > 0)
 end;   
 
 printf("\n A soma dos %d valores ingressados  = %d\n",n-1,soma)
-
-
-
-

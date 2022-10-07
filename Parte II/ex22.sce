@@ -20,4 +20,4 @@ if Altura > 10 | Largura > 15 | Peso > 50  then
     else mensagem = "cadastrado com sucesso";
 end
 
-messagebox([Disciplina;'O produto foi '; mensagem], "UENF - "+Aluno);
+messagebox([Disciplina;'O produto: '; mensagem], "UENF - "+Aluno);

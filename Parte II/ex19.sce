@@ -15,9 +15,9 @@ f=gcf();
 f.figure_name='UENF - CCT - LCMAT - CC - 2022 - '+ Aluno + dd;  
 
 x = -2*%pi:0.1:2*%pi;    
-y1 = x^3;
-y2 = x^2;
-y3 = x^4;
+y1 = 2*(x^2)+ 5 * x - 3;
+y2 = (x^3)+3*x+1;
+y3 = x^3-5*x^2-4*x+20;;
 
  
 subplot(221)  // 221 =matriz 2x2 sub-grafico 1
@@ -32,7 +32,7 @@ da1.x_location='middle';
 da1.y_label.text="x^2"; 
 
 
-subplot(222)  // 222 =matriz 2x2 sub-grafico 2
+subplot(221)  // 222 =matriz 2x2 sub-grafico 2
 plot(x,y2);
 // propriedades dos eixos
 da2=gca(); // 
@@ -44,7 +44,7 @@ da2.x_location='middle';
 da2.y_label.text="x^3"; 
 
 
-subplot(223)  // 223 =matriz 2x2 sub-grafico 3
+subplot(221)  // 223 =matriz 2x2 sub-grafico 3
 plot(x,y3,'g');
 // propriedades dos eixos
 da3=gca(); // 
@@ -55,12 +55,10 @@ da3.x_label.text="Tempo";
 da3.x_location='middle'; 
 da3.y_label.text="x^4"; 
 
-subplot(224)  // 224 =matriz 2x2 sub-grafico 4
+subplot(221)  // 224 =matriz 2x2 sub-grafico 4
 
 da4=gca(); // 
 da4=gca(); // 
 da4.title.font_size = 5;  // tamanho da fonte
 da4.title.font_foreground = 2;    // 2=azul
 da4.title.text=Aluno;
-
-

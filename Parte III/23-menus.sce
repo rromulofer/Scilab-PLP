@@ -9,7 +9,7 @@
 // Observe as opçoes do MENU PRINCIPAL da JANELA de COMANDOS..................
 
 clear; clc;
-Aluno = '';    // Incluir seu NOME aqui
+Aluno = 'Rômulo Souza Fernandes';    // Incluir seu NOME aqui
 
 
 //  Cria uma janela grafica: Comando "figure"

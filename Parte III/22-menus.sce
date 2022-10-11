@@ -7,7 +7,7 @@
 // ======> Assunto: Programacao: GUI - Menus Interativos ==================
 
 clear; clc;
-Aluno = 'Fulano de Tal';
+Aluno = 'Rômulo Souza Fernandes';
 
 discip = ['Paradigmas de Linguagens','Engenharia de Software','Computação Gráfica','Redes sem Fio'];
    dia = ['Terça-feira','Quarta-feira','Quinta-feira'];

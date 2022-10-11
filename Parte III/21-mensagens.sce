@@ -7,7 +7,7 @@
 // ======> Assunto: Programacao: GUI - Entrada de Dados ==================
 
 clear; clc;
-Aluno = 'Fulano de Tal';
+Aluno = 'Rômulo Souza Fernandes';
 
 r = messagebox([Aluno+', voce esta com Notas muito baixas...'; ' ';
              'Precisa de outra prova?'], "Prof. Ausberto Castro - UENF", "info",["Não","Sim"], "modal");

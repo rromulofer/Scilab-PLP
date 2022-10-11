@@ -8,7 +8,7 @@
 //          Resultados: Na console
 
 clear; clc;
-Aluno = 'Fulano de Tal' ;   /// <================  COMPLETAR !!!!
+Aluno = 'Rômulo Souza Fernandes' ;   /// <================  COMPLETAR !!!!
 
 dt=getdate(); dd= ' ('+string(dt(7)) + ':'+string(dt(8))+')' ;
 mprintf(' UENF - Ciencia da Computacao\n');

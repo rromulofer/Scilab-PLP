@@ -7,7 +7,7 @@
 // ======> Assunto:  Equacoes (Aplicacoes) ==================
 
 clear; clc;
-Aluno = 'Fulano de tal';
+Aluno = 'Rômulo Souza Fernandes';
 
 Eq1 = "     Ax + By = C";
 Eq2 = "     Dx + Ey = F";

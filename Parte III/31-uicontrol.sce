@@ -6,7 +6,7 @@
 //
 // ======> Assunto:  GUI   UIControl
 clear; clc;
-Aluno = 'Fulano de Tal';
+Aluno = 'Rômulo Souza Fernandes';
 
 //  Cria uma janela grafica: Comando "figure"
 h = figure('position', [150 150 600 600], ...

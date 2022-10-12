@@ -7,23 +7,23 @@
 // ======> Assunto: Programacao: GUI - Menus Interativos ==================
 
 clear; clc;
-Aluno = 'Rômulo Souza Fernandes';
+cliente = 'Rômulo Souza Fernandes';
 
-discip      = ['Paradigmas de Linguagens','Engenharia de Software','Computação Gráfica','Redes sem Fio'];
-   dia      = ['Terça-feira','Quarta-feira','Quinta-feira'];
- turno      = ['Manha','Tarde', 'Noite'];
-professor   = ['Pedro','João','Marcos'];
+macarrao    = ['Penne','Espaguete','Farfalle','Bucatini'];
+proteina    = ['Carne bovina','Peixe','Frango'];
+molho       = ['Holandês','Vermelho', 'Branco'];
+queijo      = ['Ricota','Mozzarella','Parmesão'];
 
-L1=list('Disciplina',1, discip); //titulo, Numero opção default, lista-opcoes
-L2=list('Dia',1, dia); 
-L3=list('Horario',1,turno);
-L4=list('Professor',1,professor);
+L1=list('Macarrão',1, macarrao); //titulo, Numero opção default, lista-opcoes
+L2=list('Proteina',1, proteina); 
+L3=list('Moho',1,molho);
+L4=list('Queijo',1,queijo);
 
-OpMatr=x_choices([Aluno;' Escolha UMA disciplina para matricular:'],list(L1,L2,L3,L4)); 
+OpMatr=x_choices([cliente;' Escolha uma opção de cada:'],list(L1,L2,L3,L4)); 
 
-messagebox([Aluno+', você escolheu como matricula : '; '  '; 
-'Disciplina : ' + string(discip(OpMatr(1)));
-'         Dia : '+ string(dia(OpMatr(2))); 
-'      Turno : '+ string(turno(OpMatr(3)));
-'Professor: '+ string(professor(OpMatr(4)))]);
+messagebox([cliente+', você escolheu a combinação: '; '  '; 
+'Macarrão: ' + string(macarrao(OpMatr(1)));
+'Proteina: '+ string(proteina(OpMatr(2))); 
+'Molho: '+ string(molho(OpMatr(3)));
+'Queijo '+ string(queijo(OpMatr(4)))]);
 

@@ -30,8 +30,6 @@ function output = getX(input, option)
   end
 endfunction
 
-
-
 Eq1 = "A*X^2 + B*X^1 + C*X^0 = D*Y";
 
 itens=["A";"B";"C";"D"];
